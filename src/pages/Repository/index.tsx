@@ -92,7 +92,7 @@ const Repository: React.FunctionComponent = () => {
            <strong>{issue.title}</strong>
            <p>{issue.user.login}</p>
          </div>
-         <FiChevronRight /> 
+         <FiChevronRight size={20} /> 
        </a>
       ))}
     </Issues>

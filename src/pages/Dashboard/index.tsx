@@ -43,6 +43,11 @@ const Dashboard: React.FunctionComponent = () => {
     try {
       const response = await api.get<Repository>(`repos/${newRepositorio}`); 
       const repository = response.data; 
+      const repositoryValido = localStorage.getItem(repository.full_name); 
+      console.log(repository.full_name); 
+      console.log(repositoryValido); 
+
+      //TODO: retirar add de itens duplicados
       setRepositories([...repositories, repository]); 
       setNewRepositorio(''); 
       setInputError(''); 
