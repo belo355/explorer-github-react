@@ -25,3 +25,4 @@ Explorer-Github is application for find repositories
 
 ##  Preview
 
+<img src="https://github.com/belo355/explorer-github-react/blob/master/explorer-github.PNG">
